@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url("../Ressources/curseur.png"), default;
+}
+
+body {
+    position: relative;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../Ressources/background.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5vh;
+    background-color: rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 1px 10px rgba(253, 253, 253, 0.795);
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#clic {
+    margin: auto;
+    width: 25vw;
+    transition: transform 0.2s ease, background-color 0.3s;
+}
+
+#clic:active {
+    transform: scale(0.95);
+}
+
+#bonuslist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 5vh;
+}
+
+#bonuslist > * {
+    border-radius: 200px;
+    font-size: 28px;
+    padding: 20px;
+    width: 180px;
+    margin: 10px;
+    background-color: rgba(44, 62, 80, 0.8);
+}
+
+footer {
+    padding: 2vh;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 1px 10px rgba(253, 253, 253, 0.795);
+}
+
+footer p {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #clic {
+        width: 50vw;
+    }
+
+    #bonuslist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bonuslist > * {
+        width: 80%;
+        margin: 10px 0;
+    }
+}
