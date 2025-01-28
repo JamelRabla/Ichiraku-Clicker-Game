@@ -30,8 +30,8 @@ Ce projet est sous licence **MIT**. Vous êtes libre de l'utiliser, le modifier 
 
 Voici un aperçu rapide du jeu :
 
-![Aperçu](https://imgur.com/ys3jCLR)
-![Aperçu](https://imgur.com/WJ0LUhK)
+![Aperçu](https://github.com/JamelRabla/Ichiraku-Clicker-Game/blob/main/Ressources/screen/screen1.png?raw=true)
+![Aperçu](https://github.com/JamelRabla/Ichiraku-Clicker-Game/blob/main/Ressources/screen/screen2.png?raw=true)
 
 ---
 
