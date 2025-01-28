@@ -30,8 +30,8 @@ Ce projet est sous licence **MIT**. Vous êtes libre de l'utiliser, le modifier 
 
 Voici un aperçu rapide du jeu :
 
-![Aperçu Naruto Clicker Game](https://imgur.com/ys3jCLR)
-![Aperçu Naruto Clicker Game](https://imgur.com/WJ0LUhK)
+!(https://imgur.com/ys3jCLR)
+!(https://imgur.com/WJ0LUhK)
 
 ---
 
